@@ -31,7 +31,7 @@ public class EnvelopeStatusResponse  extends BaseDto{
 
 	/** The envelopes. */
 	@JsonProperty
-	private List<EnvelopeInfo> auditEvents;
+	private List<EnvelopeInfo> envelopes;
 
 	/** The result set size. */
 	@JsonProperty
